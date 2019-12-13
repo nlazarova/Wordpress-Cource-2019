@@ -1,0 +1,41 @@
+body {
+
+    background-color:#F6F6F6;
+    a{
+        color:#04d34d;
+    }    
+    
+    }
+    .menu {
+        display: flex;
+        background: #f3f3f3;
+        padding: 0;
+        margin: 0;
+    
+        &-item {
+            list-style: none;
+        }
+        &-item a {
+            display: block;
+            color: #333; 
+            padding: 1em 1.5em;
+                cursor: pointer;
+                font-weight: 900;
+        
+                &:hover {
+                    background: #d1d1d1;
+                    color: #0c4d0f;
+                }
+            }
+        }
+        /* edge-to-edge design bootstrap  */
+        .no-gutters {
+            margin-right: 0;
+            margin-left: 0;
+          
+            > .col,
+            > [class*="col-"] {
+              padding-right: 0;
+              padding-left: 0;
+            }
+          }  

@@ -1,0 +1,13 @@
+/*
+Theme Name: Blog Theme
+Theme URI: http://www.ggenov.eu
+Author: Georgi Genov
+Author URI: http://www.ggenov.eu
+Description: My first WordPresstheme
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: SASS, clean, bootstrap
+Text Domain: blog_theme
+*/
+@import 'css/main.css';
