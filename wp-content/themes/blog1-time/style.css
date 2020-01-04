@@ -1,0 +1,13 @@
+/*
+Theme Name: Blog1 Time
+Theme URI: http://www.lsoft.info/ntlazarova/
+Author: Nedyalka Lazarova
+Author URI: http://www.lsoft.info/ntlazarova/
+Description: My first WordPresstheme
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: SASS, clean, bootstrap
+Text Domain: blog1-time
+*/
+@import 'css/main.css';

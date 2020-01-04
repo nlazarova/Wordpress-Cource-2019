@@ -1,0 +1,12 @@
+.agro-cal-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agro-cal-container .information, .contact-us-container .google-map, .agro-cal-container .table-info {
+    flex: 1 1 90%;
+}
+
+.agro-cal-container .information {
+    padding-right: 1em;
+}

@@ -1,0 +1,54 @@
+body {
+
+    background-color:#F6F6F6;
+    font-size: 4rem;
+    a{
+        color:#04d34d;
+    }    
+    
+    }
+    .menu {
+        display: flex;
+        background: #f3f3f3;
+        padding: 0;
+        margin: 0;
+    
+        &-item {
+            list-style: none;
+        }
+        &-item a {
+            display: block;
+            color: #333; 
+            padding: 1em 1.5em;
+                cursor: pointer;
+                font-weight: 900;
+        
+                &:hover {
+                    background: #d1d1d1;
+                    color: #0c4d0f;
+                }
+            }
+        }
+        /* edge-to-edge design bootstrap  */
+        .no-gutters {
+            margin-right: 0;
+            margin-left: 0;
+          
+            > .col,
+            > [class*="col-"] {
+              padding-right: 0;
+              padding-left: 0;
+            }
+          } 
+    .my-img-front-p {
+        background-image: url(http://localhost/softyni/my-blog-1/wp-content/uploads/2019/12/junk1.jpg);
+        width: 100%;
+        min-height: 295px;        
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container.alert.text-center{
+        font-size: 2rem;
+    }
